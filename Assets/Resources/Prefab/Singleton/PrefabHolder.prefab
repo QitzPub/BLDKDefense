@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1335141960593430}
+  m_IsPrefabAsset: 1
+--- !u!1 &1335141960593430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4550842566095240}
+  - component: {fileID: 114814877857858244}
+  m_Layer: 0
+  m_Name: PrefabHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4550842566095240
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335141960593430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114814877857858244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335141960593430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bdc091747c64d78b66d575ecc5ed57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundRose: {fileID: 114862527433364192, guid: 1f912107f110643669d69d62be1dd2d6,
+    type: 2}
+  straightRose: {fileID: 1607717924495840, guid: 4db02692722ef3448821a997e3a93373,
+    type: 2}
+  waveAnimation: {fileID: 1170136178588426, guid: 2e3b385333170490f9838c39883770c6,
+    type: 2}
+  failAnimation: {fileID: 1170136178588426, guid: 099a5373b81124247926695c860e4853,
+    type: 2}
+  titleManager: {fileID: 114373422091428844, guid: af33a1bfe9dbe42079463b078da5b12f,
+    type: 2}
+  titleDisplay: {fileID: 1268685335903134, guid: d04802594130f4e0aa967714b8f3cc73,
+    type: 2}
+  clearAnimation: {fileID: 1139299795852194, guid: a2cb8b03b8769304ebde29e2dec01e69,
+    type: 2}
+  openingRose: {fileID: 0}
+  endingRose: {fileID: 114818178029872982, guid: ba48f8925001c1b46a38e497838a9d5b,
+    type: 2}

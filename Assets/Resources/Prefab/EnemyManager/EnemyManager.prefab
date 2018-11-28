@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1891108938679222}
+  m_IsPrefabAsset: 1
+--- !u!1 &1891108938679222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4346748363768434}
+  - component: {fileID: 114379370112473022}
+  m_Layer: 0
+  m_Name: EnemyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346748363768434
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891108938679222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 231.5136, y: 625.52075, z: -392.56732}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114379370112473022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891108938679222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80209d5247b87d41ac494b4d1334d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normal: {fileID: 114771782636571584, guid: e5b63974373335e479d19514134331ee, type: 2}
+  walker: {fileID: 114771782636571584, guid: ec2f6edb59dd3da448b38e230a716173, type: 2}
+  climber: {fileID: 114600750175659984, guid: 535bf36193d855d49a216edd09dc89e1, type: 2}
+  ghost: {fileID: 114446645149665354, guid: 7ed125a21aa448841b7cbd15c1af0516, type: 2}
+  jet: {fileID: 114702221070138574, guid: da286bbe02a045a48be66c36b8337b19, type: 2}
+  jumper: {fileID: 114407956618469382, guid: 11b476cec31ab074493ffd0199425b84, type: 2}
+  armor: {fileID: 114638893238767018, guid: c737e684cf73011459b8a2892f0b4e8e, type: 2}
+  armorJet: {fileID: 114437809271992896, guid: 5e5328ff7ee872b4bb713368dfe6f486, type: 2}
